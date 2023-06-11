@@ -21,7 +21,7 @@ END;
 $$ language 'plpgsql';
 
 --
--- member
+-- members
 --
 CREATE TABLE {{m}} (
   id          SERIAL PRIMARY KEY,
@@ -56,7 +56,7 @@ create trigger update_updated_at_{{m}}
   for each row execute procedure update_updated_at_column();
 
 --
--- session
+-- sessions
 --
 CREATE TABLE {{s}} (
   id           SERIAL PRIMARY KEY,
