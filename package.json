@@ -1,6 +1,6 @@
 {
   "name": "ninsho-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A command line tool useful for creating database tables and other tasks on ninsho.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
